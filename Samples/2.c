@@ -1,0 +1,1 @@
+﻿unsigned int f(const int x, ...);

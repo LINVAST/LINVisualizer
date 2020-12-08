@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using LINVAST.Nodes;
 using Newtonsoft.Json;
 
-namespace LINVAST.Visualizer
+namespace LINVisualizer
 {
     internal sealed class NodeControlCreator
     {

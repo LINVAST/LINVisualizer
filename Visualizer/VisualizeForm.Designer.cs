@@ -1,4 +1,4 @@
-﻿namespace LINVAST.Visualizer
+﻿namespace LINVisualizer
 {
     partial class VisualizeForm
     {

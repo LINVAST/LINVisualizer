@@ -4,7 +4,7 @@ using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using LINVAST.Nodes;
 
-namespace LINVAST.Visualizer
+namespace LINVisualizer
 {
     public partial class VisualizeForm : Form
     {

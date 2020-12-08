@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace LINVAST.Visualizer
+namespace LINVisualizer
 {
     internal sealed class Options
     {

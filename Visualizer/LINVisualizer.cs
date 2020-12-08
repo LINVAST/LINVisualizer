@@ -6,9 +6,9 @@ using LINVAST.Imperative;
 using LINVAST.Nodes;
 using Serilog;
 
-namespace LINVAST.Visualizer
+namespace LINVisualizer
 {
-    public sealed class ASTVisualizer
+    public sealed class LINVisualizer
     {
         /// <summary>
         ///  The main entry point for the application.

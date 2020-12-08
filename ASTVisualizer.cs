@@ -2,6 +2,7 @@ using System;
 using System.Windows.Forms;
 using CommandLine;
 using LINVAST.Exceptions;
+using LINVAST.Imperative;
 using LINVAST.Nodes;
 using Serilog;
 
@@ -46,7 +47,7 @@ namespace LINVAST.Visualizer
 
             ast = null;
             try {
-                ast = ASTFactory.BuildFromFile(path);
+                ast = new ImperativeASTFactory().BuildFromFile(path);
                 return true;
             } catch (SyntaxErrorException e) {
                 Log.Fatal(e, "[{Path}] Syntax error: {Details}", path, e.Message ?? "unknown");

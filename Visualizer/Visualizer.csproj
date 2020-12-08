@@ -16,22 +16,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Samples\1.c">
+    <None Update="..\Samples\1.c">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Samples\1.lua">
+    <None Update="..\Samples\1.lua">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Samples\2.c">
+    <None Update="..\Samples\2.c">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Samples\2.lua">
+    <None Update="..\Samples\2.lua">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Samples\3.c">
+    <None Update="..\Samples\3.c">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Samples\4.c">
+    <None Update="..\Samples\4.c">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
